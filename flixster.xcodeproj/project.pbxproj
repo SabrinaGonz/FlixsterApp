@@ -15,6 +15,7 @@
 		01EC20D825CA4D9100AA71CD /* flixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC20D725CA4D9100AA71CD /* flixsterTests.swift */; };
 		01EC20E325CA4D9100AA71CD /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC20E225CA4D9100AA71CD /* flixsterUITests.swift */; };
 		01EC20F325CBB8FB00AA71CD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC20F225CBB8FB00AA71CD /* MoviesViewController.swift */; };
+		01EC20F525CBC6F300AA71CD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC20F425CBC6F300AA71CD /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		01EC20E225CA4D9100AA71CD /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		01EC20E425CA4D9100AA71CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01EC20F225CBB8FB00AA71CD /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		01EC20F425CBC6F300AA71CD /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,6 @@
 		01EC20B425CA4D8700AA71CD = {
 			isa = PBXGroup;
 			children = (
-				01EC20F225CBB8FB00AA71CD /* MoviesViewController.swift */,
 				01EC20BF25CA4D8800AA71CD /* flixster */,
 				01EC20D625CA4D9100AA71CD /* flixsterTests */,
 				01EC20E125CA4D9100AA71CD /* flixsterUITests */,
@@ -106,6 +107,8 @@
 				01EC20C925CA4D9100AA71CD /* Assets.xcassets */,
 				01EC20CB25CA4D9100AA71CD /* LaunchScreen.storyboard */,
 				01EC20CE25CA4D9100AA71CD /* Info.plist */,
+				01EC20F225CBB8FB00AA71CD /* MoviesViewController.swift */,
+				01EC20F425CBC6F300AA71CD /* MovieCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				01EC20C125CA4D8800AA71CD /* AppDelegate.swift in Sources */,
 				01EC20C325CA4D8800AA71CD /* SceneDelegate.swift in Sources */,
+				01EC20F525CBC6F300AA71CD /* MovieCell.swift in Sources */,
 				01EC20F325CBB8FB00AA71CD /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
